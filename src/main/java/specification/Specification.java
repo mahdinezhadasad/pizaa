@@ -1,4 +1,5 @@
 package specification;
 
-public class Specification {
+public interface Specification<T> {
+    boolean isSatisfiedBy(T t);
 }

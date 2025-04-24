@@ -1,4 +1,6 @@
-package domain.pizza.decorator;
+package domain.pizza;
 
-public class IPizza {
+public interface IPizza {
+    String getDescription();
+    int getCalories();
 }
